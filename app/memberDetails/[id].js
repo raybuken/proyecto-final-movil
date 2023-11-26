@@ -13,7 +13,7 @@ function MemberDetails() {
   }
 
   return (
-    <MainLayout backButton={true}>
+    <MainLayout backButton={true} title={member.fullname}>
       <Card style={{padding: 10}}>
         <Card.Cover source={member.image} />
         <Card.Content style={styles.content}>
