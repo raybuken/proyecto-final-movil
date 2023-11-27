@@ -1,8 +1,7 @@
 export const team = {
     groupName: "Grupo 2",
     image: "",
-    members: [
-        {
+    members: [{
             id: "1",
             fullname: "Raymundo Peña",
             enrollment: "2021-30-1-0036",
@@ -14,6 +13,19 @@ export const team = {
                 "Videojuegos, principalmente 2d y plataformeros",
                 "Anime",
                 "Ajedrez"
+            ]
+        },
+        {
+            id: "1",
+            fullname: "Esmilna Ramírez",
+            enrollment: "2020-30-1-0038",
+            image: require('../assets/team/Esmilna.jpg'),
+            birthCity: "Azua",
+            description: "Estudiante de Ingenieria en Software",
+            hobbies: [
+                "Estudiar programacion",
+                "Estudiar ingles",
+                "Jugar juegos de moda"
             ]
         },
     ]
