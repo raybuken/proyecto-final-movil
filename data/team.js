@@ -29,5 +29,33 @@ export const team = {
                 "Jugar juegos de moda"
             ]
         },
+        {
+            id: "3",
+            fullname: "Dawich Rodriguez",
+            enrollment: "2021-30-1-0012",
+            image: require('../assets/team/DawichPhoto.jpg'),
+            birthCity: "Santo Domingo Este",
+            description: "Software Developer, .NET Core stack and freelances jobs.",
+            hobbies: [
+                "Jugar videojuegos, mayormente shooters y RPG",
+                "Escuchar musica como Rock o Metal",
+                "Ver anime, series y peliculas",
+                "Viajar y disfrutar de conciertos en vivo"
+            ]
+        },
+        {
+            id: "3",
+            fullname: "Dawich Rodriguez",
+            enrollment: "",
+            image: require('../assets/team/DawichPhoto.jpg'),
+            birthCity: "Santo Domingo Este",
+            description: "Software Developer, .NET Core stack and freelances jobs.",
+            hobbies: [
+                "Jugar videojuegos, mayormente shooters y RPG",
+                "Escuchar musica como Rock o Metal",
+                "Ver anime, series y peliculas",
+                "Viajar y disfrutar de conciertos en vivo"
+            ]
+        }
     ]
 }
