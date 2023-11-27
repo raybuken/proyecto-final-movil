@@ -1,7 +1,8 @@
 export const team = {
     groupName: "Grupo 2",
     image: "",
-    members: [{
+    members: [
+        {
             id: "1",
             fullname: "Raymundo Peña",
             enrollment: "2021-30-1-0036",
@@ -16,7 +17,7 @@ export const team = {
             ]
         },
         {
-            id: "1",
+            id: "2",
             fullname: "Esmilna Ramírez",
             enrollment: "2020-30-1-0038",
             image: require('../assets/team/Esmilna.jpg'),

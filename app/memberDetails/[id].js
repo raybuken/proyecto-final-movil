@@ -15,7 +15,7 @@ function MemberDetails() {
   return (
     <MainLayout backButton={true} title={member.fullname}>
       <Card style={{padding: 10}}>
-        <Card.Cover source={member.image} />
+        <Card.Cover source={member.image} style={styles.banner} />
         <Card.Content style={styles.content}>
           <Text variant="titleLarge" style={styles.title}>{member.fullname} ({member.enrollment})</Text>
           <Text>{member.description}</Text>
@@ -44,6 +44,9 @@ const styles = StyleSheet.create({
   },
   bold:{
     fontWeight: "bold"
+  },
+  banner:{
+    height: 250
   }
 })
 
