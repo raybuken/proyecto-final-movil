@@ -46,7 +46,7 @@ export const team = {
              {
             id: "4",
             fullname: "Freddy Sanchez",
-            enrollment: "",
+            enrollment: "2020-30-1-0003",
             image: require('../assets/team/jpePhoto.jpg'),
             birthCity: "Santo Domingo oste",
             description: "Estudiante de ingenieria de software.",
