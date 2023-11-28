@@ -43,11 +43,11 @@ export const team = {
                 "Viajar y disfrutar de conciertos en vivo"
             ]
         },
-             {
+        {
             id: "4",
             fullname: "Freddy Sanchez",
             enrollment: "2020-30-1-0003",
-            image: require('../assets/team/jpePhoto.jpg'),
+            image: require('../assets/team/freddy.jpg'),
             birthCity: "Santo Domingo oste",
             description: "Estudiante de ingenieria de software.",
             hobbies: [
@@ -56,7 +56,6 @@ export const team = {
                 "Ver series y peliculas",
                 "cocinar"
             ]
-        },
         }
     ]
 }
