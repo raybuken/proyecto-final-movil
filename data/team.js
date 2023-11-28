@@ -43,19 +43,20 @@ export const team = {
                 "Viajar y disfrutar de conciertos en vivo"
             ]
         },
-        {
-            id: "3",
-            fullname: "Dawich Rodriguez",
+             {
+            id: "4",
+            fullname: "Freddy Sanchez",
             enrollment: "",
-            image: require('../assets/team/DawichPhoto.jpg'),
-            birthCity: "Santo Domingo Este",
-            description: "Software Developer, .NET Core stack and freelances jobs.",
+            image: require('../assets/team/jpePhoto.jpg'),
+            birthCity: "Santo Domingo oste",
+            description: "Estudiante de ingenieria de software.",
             hobbies: [
-                "Jugar videojuegos, mayormente shooters y RPG",
-                "Escuchar musica como Rock o Metal",
-                "Ver anime, series y peliculas",
-                "Viajar y disfrutar de conciertos en vivo"
+                "Editar videos",
+                "Escuchar musica",
+                "Ver series y peliculas",
+                "cocinar"
             ]
+        },
         }
     ]
 }
